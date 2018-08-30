@@ -1,37 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Audiowide:100,200,300,400,500,600,700,800,900');
+
 
 /*-----------------------------------------------------Header*/
-.navbar {
-    margin: 0px;
+
+.header {
+    background: url("../images/25-Incredible-Band-Photos-That-Will-Restore-Your-Faith-In-Good-Music-.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0px;
+    margin: 0px;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -mz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.uppercase {
+    font-family: "Teko" , sans-serif;
+    text-transform: uppercase;
     text-align: center;
 }
 
-
-
+.title {
+    font-family: "Teko" , sans-serif;
+    font-weight: 400;
+    color: #6495ED;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+}
 
 /*-----------------------------------------------------Section*/
-
-.bg-feature {
-    margin: 0px;
+.background {
+    background: url("../images/IMG_3425_smaller.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0px;
+    margin: 0px;
+    min-height: 600px;
+    transition: all .5s ease-in-out;
+    -mz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.menuitem {
+    height: 140px;
+    text-align: center;
+    padding: 90px;
+    color: #fafafa;
 }
 
-.cover-image {
-    margin: 0px;
-    padding: 0px;
-    min-height: 360px;
-    width: 100%;
-    max-width: 100%;
-
-}
-
-.feature {
+.menuitem span {
+    font-family: ":Audiowide" , sans-serif;
     padding: 0px;
     text-align: center;
-}
-
-.bg-feature {
-    padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    color: #fafafa;
 }
 
 /*-----------------------------------------------------Footer*/
@@ -46,7 +76,7 @@ footer {
 
 
 .social-links {
-    padding-bottom: 15px;
+    padding-left: 35px;
 }
 
 .social-links li a i {
@@ -65,5 +95,5 @@ footer {
 }
 
 .social-links li a i:hover {
-    color: #e84610;
+    color: #1E90FF;
 }
