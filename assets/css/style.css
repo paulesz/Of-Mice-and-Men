@@ -6,10 +6,17 @@ body {
 	width: 100%;
 }
 
-.home {
+.navbar {
+    margin: auto;
     padding: 0px;
-
+    background-color: #000000;
+    border-color: #000000;
 }
+
+.navbar-brand {
+    color: #fed046;
+}
+
 .parallax-1 {
     background: url("../images/of-mice-and-men-band-2015-wallpaper-4.jpg");
     height: 800px;
@@ -22,50 +29,16 @@ body {
     -webkit-transition: all .5s ease-in-out;
 }
 
-
-.inline-list {
-    display: block;  
-	margin: 0 auto;
-}
-
-.nav-list {
-    list-style-type: none;
-    padding-top: 10px;
-}
-.nav-list li {
-    display: block;
-    float: left;
-    
-}
-
-
-.nav-list li a {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 14px;
-    lettter-spacing: 2px;
-    margin-right: 3vw;
-}
-
-a {
-    color: #feca3d;
-    text-decoration: none;
-    -o-transition: .4s;
-    -ms-transition: .4s;
-    -moz-transition: .4s;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
 .social {
-    float: right;
-    padding-top: 0px;
+    display: inline-table;
+    text-align: center;
+    padding: 0px;
+    margin-top: 5px;
 }
+
 .social a {
     font-size: 25px;
-    margin-left: 15px;
-    float: right;
-    padding-right: 5px;
+    letter-spacing: 15px;
 }
 
 
@@ -74,6 +47,18 @@ a {
     overflow: hidden;
     position: relative;
     text-align: center;
+    padding: 0px;
+}
+
+a
+i {
+    color: #feca3d;
+    text-decoration: none;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 p {
     font-family: "Gloria+Hallelujah", sans-serif;
@@ -82,15 +67,14 @@ p {
     font-weight: 200;
 }
 
-
 h3 {
     font-family: "Kanit", sans-serif;
     color: #fdcb00;
     font-size: 30px;
     font-weight: 300;
     padding-bottom: 15px;
+    text-align: center;
 }
-
 
 h2 {
     font-family: "Kanit", sans-serif;
@@ -104,6 +88,11 @@ h2 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: 300;
+}
+
+ul {
+    list-style-type:none;
+    color: white;
 }
 
 .wrap {
@@ -124,21 +113,20 @@ h2 {
     padding-top: 10px;
 }
 
-.details p {
+.details 
+.details-3 p {
     font-family: "Gloria+Hallelujah", sans-serif;
     color: #fafafa;
-    font-size: 15px;
-    font-weight: 200;
-    padding-top: 15px;
+
 }
 
 .cover {
-    background: url("../images/album.jpg");
+    background: url("../images/album-new.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px;
-    width: 315px;
+    width: 330px;
     transition: all .5s ease-in-out;
     -mz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -159,18 +147,30 @@ h2 {
 }
 
 
-.memebrs-photos {
+.members-photos {
     background: black;
     overflow: hidden;
     position: relative;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 10px;
+    margin: auto;
+}
 
+.details-3{
+    float: right;
 }
 
 .thumbnail {
     background-color: black;
+    border: none;
+    height: 250px;
+}
+
+.members {
+    
+    margin-bottom: 18px;
+    margin-left: 20px;
+    height: 250px;
 }
 
 .parallax-3 {
@@ -185,6 +185,11 @@ h2 {
     -webkit-transition: all .5s ease-in-out;
 }
 
+.video-section {
+    padding-bottom: 30px;
+}
+
+
 .contact {
     background: white;
     overflow: hidden;
@@ -198,22 +203,76 @@ h2 {
     font-weight: 400;
 }
 
-.video-section {
-    padding-bottom: 30px;
-    padding-left: 0px;
-}
-.video {
-    padding-bottom: 30px;
-    padding-left: 0px;
+fname {
+    font-size: 15px;
 }
 
-.social-footer {
-    font-size: 25px;
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 5px;  
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0px 5px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
     text-align: center;
+    padding-bottom: 15px;
+}
+
+
+.social-footer {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
     
 }
 
 .social-footer a {
     letter-spacing: 20px;
     padding-bottom: 20px;
+}
+/*-----------------------------------------action_page---*/
+
+
+h1 {
+    font-family: "Kanit", sans-serif;
+    color: #fdcb00;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    font-family: "Kanit", sans-serif;
+    color: #fdcb00;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+.parallax-3 {
+    height: 950px;
+}
+
+.php-content {
+    padding-top: 350px;
 }

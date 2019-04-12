@@ -2,70 +2,91 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>The Monkees</title>
+	<title>Of Mice and Men</title>
 </head>
 <body>
 	<header>
-		<div class="container-fluid home">
-			<div class="parallax-1">
-				<div class="row">
-					<div class="hidden-xs col-sm-8 col-lg-8" >
-					<ul class="nav-list">
-					 	<li><a href="#">Home</a></li>
-						<li><a href="#">Music</a></li>
-						<li><a href="#">Photos</a></li>
-						<li><a href="#">Videos</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-					</div>
-					<div class="social hidden-xs col-sm-4 col-lg-4">
-						<a href="#" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-						<a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
-						<a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
-						<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-						<a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
+			<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="index.html">Of Mice and Men</a>
+				    </div>
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li><a href="#music">Music</a></li>
+				        <li><a href="#photos">Photos</a></li>
+				        <li><a href="#video">Video</a></li>
+				        <li><a href="#contact">Contact Us</a></li>
+				      </ul>
+					  <div class="social  col-sm-4 col-lg-4">
+						<a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+						<a href="https://www.facebook.com/ofmice/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+						<a href="https://twitter.com/TheOfMiceFamily" target="_blank"><i class="fab fa-twitter-square"></i></a>
+						<a href="https://www.instagram.com/omandm/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.youtube.com/channel/UCrh0I8I0l6eAj2DuW0GE_Fg" target="_blank"><i class="fab fa-youtube"></i></a>
+					  </div>
+				      <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm hidden-md hidden-lg">
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-align-justify"></i><span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#music">Music</a></li>
+				            <li><a href="#photos">Photos</a></li>
+				            <li><a href="#videos">Videos</a></li>
+				            <li><a href="#contact">Contact</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				    </div>
+				  </div>
+				</nav>
+			<div class="parallax-1"></div>
 	</header>
 	<div class="content">
 		<section class="container-fluid margine-standart music">
 			<div class="row">
 				<div class="wrap">
+					<a name="music"></a>
 					<h2>MUSIC</h2>
 						<div class="row elements">
 							<h3>DOES DAYS ARE GONE | The New Album<br>Released 30th October</h3>
 							<div class="cover col-xs-12 col-sm-6 col-md-6 col-lg-6"></div>
 							<div class="details col-xs-12 col-sm-6 col-md-6 col-lg-6">
-								<p>Do I Wanna Know</p>
+								<p>Another You</p>
 								<audio controls>
 								  <source src="horse.ogg" type="audio/ogg">
-								  <source src="assets/music/Arctic Monkeys - Do I Wanna Know_ (Official Video) (128  kbps).mp3" type="audio/mpeg">
+								  <source src="assets/music/Of Mice & Men - Another You (Official Video) (128  kbps).mp3" type="audio/mpeg">
 								  Your browser does not support the audio element.
 								 </audio>
-								 <p>Adventure Of A Lifetime</p>
+								 <p>Bones Exposed</p>
 								 <audio controls>
 								  <source src="horse.ogg" type="audio/ogg">
-								  <source src="assets/music/Coldplay - Adventure Of A Lifetime (Official Video) (128  kbps).mp3" type="audio/mpeg">
+								  <source src="assets/music/Of Mice & Men - Bones Exposed (Official Music Video) (128  kbps).mp3" type="audio/mpeg">
 								  Your browser does not support the audio element.
 								 </audio>
-								 <p>Daydream Believer</p>
+								 <p>Instincts</p>
 								 <audio controls>
 								  <source src="horse.ogg" type="audio/ogg">
-								  <source src="assets/music/The Monkees - Daydream Believer (Official Music Video) (128  kbps).mp3" type="audio/mpeg">
+								  <source src="assets/music/Of Mice & Men - Instincts (Official Music Video) (128  kbps).mp3" type="audio/mpeg">
 								  Your browser does not support the audio element.
 								 </audio>
-								 <p>ast Train To Clarksville 1966</p>
+								 <p>Unbreakable</p>
 								 <audio controls>
 								  <source src="horse.ogg" type="audio/ogg">
-								  <source src="assets/music/The Monkees - Last Train To Clarksville 1966 (128  kbps).mp3" type="audio/mpeg">
+								  <source src="assets/music/Of Mice & Men - Unbreakable (Official Music Video) (128  kbps).mp3" type="audio/mpeg">
 								  Your browser does not support the audio element.
 								 </audio>
 							</div>
@@ -73,91 +94,128 @@
 				</div>
 			</div>
 			<div class="parallax-2"></div>
+			<a name="photos"></a>
 			<h2>PHOTOS</h2>
-			<div class="memebrs-photos">
+		<div class="container-fluid">
+			<div class="members-photos">
 			    <div class="row">
-				  <div class="details col-xs-12 col-sm-3 col-md-3">
-				  	<h3>Micky Dolenz</h3>
-				    <a href="#" class="thumbnail">
-				      <img src="assets/images/dj.jpg" alt="dj">
-				    </a>
-				    <p>Micky Dolenz was a member of the 1960s created-for-television rock group, The Monkees.</p>
-				  </div>
-				  <div class="details col-xs-12 col-sm-3 col-md-3">
-				  	<h3>Michael Nesmith</h3>
-				    <a href="#" class="thumbnail">
-				      <img src="assets/images/md.jpg" alt="guitar">
-				    </a>
-				    <p>Michael Nesmith rose to fame as a member of the Monkees, a made-for-television group that turned into a real rock success story.</p>
-				  </div>
-				  <div class="details col-xs-12 col-sm-3 col-md-3">
-				  	<h3>Peter Tork</h3>
-				    <a href="#" class="thumbnail">
-				      <img src="assets/images/mn.jpg" alt="drumer">
-				    </a>
-				    <p>As a member of the Monkees, Peter Tork achieved big pop music success in the 1960s, with such hits as "Daydream Believer" and "Last Train to Clarksville."</p>
-				  </div>
-				  <div class="details col-xs-12 col-sm-3 col-md-3">
-				  	<h3>Davy Jones</h3>
-				    <a href="#" class="thumbnail">
-				      <img src="assets/images/pt.jpg" alt="singer">
-				    </a>
-				    <p>Davy Jones was a singer and actor who found fame as a member of the pop group the Monkees, on the television show of the same name.</p>
-				  </div>
+					  <div class="details col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					  	<h3>Alan Ashby</h3>
+					  	<div class="members">
+						    <a class="thumbnail">
+						      <img src="assets/images/member1.jpeg" alt="dj">
+						    </a>
+					    </div>
+					    <ul>
+					    	<li>Instrument: Guitar</li>
+							<li>Place of Birth: Anaheim, CA</li>
+							<li>Endorsements: Ibanez Guitars, Hughes Kettner, Fractal Audio, Ernie Ball, Mesa Boogie, Gibson Guitars, Taylor Guitars, Publish Brand, Seven Friday Watches</li>
+							<li>Hobbies: Music, Sports, Working out, Cycling, Dog owner</li>
+							<li>Quote: "Reality is wrong, dreams are for real" -Tupac</li>
+						</ul>
+					  </div>
+					  <div class="details col-xs-12 col-sm-6 col-md-6 log-lg-6">
+					  	<h3>Aaron Pauley</h3>
+					  	<div class="members">
+						    <a class="thumbnail">
+						      <img src="assets/images/member2.jpeg" alt="guitar">
+						    </a>
+					    </div>
+					    <ul>
+					    	<li>Instrument: Bass Guitar</li>
+							<li>Place of Birth: Walnut Creek, CA</li>
+							<li>Endorsements: PRS Guitars, TC Electronics, Mesa Boogie, Aguilar Amplifiers, JH Audio</li>
+							<li>Hobbies: Video Games, Watches, Politics</li>
+							<li>Quote: "Family first"</li>
+						</ul>
+					  </div>
+					  <div class="details-3 col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					  	<h3>Valentiono Areteaga</h3>
+					  	<div class="members">
+						    <a class="thumbnail">
+						      <img src="assets/images/member3.jpeg" alt="drumer">
+						    </a>
+					    </div>
+					    <ul>
+					    	<li>Instrument: Drums</li>
+							<li>Place of Birth: San Diego, CA</li>
+							<li>Endorsements: DW Drums, Zildjian Cymbals, Promark Drumsticks, Evans Drumheads, Roland Electronics, Porter & Davies Throne, JH Audio</li>
+							<li>Hobbies: Music, Collecting vinyl, Playing guitar, Concerts</li>
+							<li>Quote: "Strive for excellence through efforts"</li>
+						</ul>
+					  </div>
+					  <div class="details col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					  	<h3>Phil Manansala</h3>
+					  	<div class="members">
+						    <a class="thumbnail">
+						      <img src="assets/images/members4new.jpeg" alt="singer">
+						    </a>
+					    </div>
+					    <ul>
+					    	<li>Instrument: Guitar</li>
+							<li>Place of Birth: Anaheim, CA</li>
+							<li>Endorsements: Ibanez Guitars, Hughes & Kettner, Fractal Audio, Ernie Ball, Mesa Boogie, Gibson Guitars, Taylor Guitars</li>
+							<li>Hobbies: Music, Sports, Working out, Cycling, Dog owner</li>
+							<li>Quote: "Reality is wrong, dreams are for real" -Tupac</li>
+						</ul>
+					  </div>
 				</div>
 			</div>
 			<div class="parallax-3">
-				
 			</div>
+			<a name="video"></a>
 			<h2>VIDEOS</h2>
-			<div class="video-section">
-				<div calss="row">
-					<div class=" video col-xs-12 col-sm-6 col-md-6 col-lg-4">
-						<video width="400" controls>
-						  <source src="assets/videos/TheMonkees (2).mp4" type="video/mp4">
-						  <source src="mov_bbb.ogg" type="video/ogg">
-						  Your browser does not support HTML5 video.
-						</video>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-						<video width="400" controls>
-						  <source src="assets/videos/TheMonkees (2).mp4" type="video/mp4">
-						  <source src="mov_bbb.ogg" type="video/ogg">
-						  Your browser does not support HTML5 video.
-						</video>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-						<video width="400" controls>
-						  <source src="assets/videos/TheMonkees (2).mp4" type="video/mp4">
-						  <source src="mov_bbb.ogg" type="video/ogg">
-						  Your browser does not support HTML5 video.
-						</video>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 hidden-lg">
-						<video width="400" controls>
-						  <source src="assets/videos/TheMonkees (2).mp4" type="video/mp4">
-						  <source src="mov_bbb.ogg" type="video/ogg">
-						  Your browser does not support HTML5 video.
-						</video>
+				<div class="row">
+					<div class="video-section">
+						<div class=" video col-xs-12 col-sm-6 col-md-6 col-lg-4">
+							<iframe width="320" height="320" src="https://www.youtube.com/embed/_3P26FaPxgk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+						<div class="video col-xs-12 col-sm-6 col-md-6 col-lg-4">
+							<iframe width="320" height="320" src="https://www.youtube.com/embed/IO-JbFtgeX4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+						<div class="video col-xs-12 col-sm-6 col-md-6 col-lg-4">
+							<iframe width="320" height="320" src="https://www.youtube.com/embed/1G0PDgr73NA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+						<div class="video col-xs-12 col-sm-6 col-md-6 hidden-lg">
+							<iframe width="320" height="320" src="https://www.youtube.com/embed/Gj93e2Z2EOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
 					</div>
 				</div>
-			</div>
 		</section>
+		</div>
 	</div>
 	<footer>
 		<div class="container-fluid">
 			<div class="row">
+				<a name="contact"></a>
 				<div class="contact">
-					<h2>ABOUT US</h2>
-					<p>In 1965, over 400 people responded to an ad seeking young men for a new television show about a rock group called The Monkees. The Monkees, starring Davy Jones, Micky Dolenz, Michael Nesmith, and Peter Tork premiered on September 12, 1966, and audiences adored the humorous antics of the band. Though made for TV, The Monkees had real-life hits and struggled against their "Pre-Fab Four" image. Some of their best-loved and number one hits included Neil Diamond's "I'm a Believer" and "Last Train to Clarksville." More successful singles followed, including another Neil Diamond song, "Little Bit Me, Little Bit You," Gerry Goffin and Carole King's "Pleasant Valley Sunday", and "Daydream Believer" by John Stewart of the Kingston Trio.</p>
+					<h3>ABOUT US</h3>
+					<p> We are Of Mice & Me.An American metalcore band from Orange County, California.<br>
+						Our band members consists of lead vocalist and bassist Aaron Pauley, guitarists Phil Manansala and Alan Ashby, and drummer Valentino Arteaga.<br>
+						Our group was founded by Austin Carlile and Jaxin Hall in mid-2009 after Carlile's departure from Attack Attack!.<br> 
+						Since 2009, We has released five studio albums. Carlile departed from the band in December 2016 citing that a long term health condition prompted his exit.<br>
+						After Carlile's departure the We continued to pursue creating music with Pauley as the band's bassist and lead vocalist.
+					</p>
+					<hr size="20">
+					<p>We are available for bookings to preform on birtdays,weddings,christmas parties.Get in touch with us by filing the form below!</p>
 				</div>
 			</div>
-			<div calss="row">
-				<div class="social-footer col-xs-12 hidden-sm hidden-md hidden-lg">
-					<h3>Contact</h3>
-					<p> We can preform live at events such as weddings and Christmas parties.<br>
-						Dont hesitate to contact Us on social platfroms.<br>
-						Email Us at themonkeeys@gmail.com</p>
+			<div class="row">
+				<h3>Contact</h3>
+				<div class="container">
+					  <form action="action_page.php">
+					    <label for="fname">First Name</label>
+					    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+					    <label for="lname">Last Name</label>
+					    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					    <label for="email">Email</label>
+					    <input type="text" id="email" name="email" placeholder="Your Email..">
+					    <label for="subject">Subject</label>
+					    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+					    <input type="submit" value="Submit">
+					  </form>
+				</div>
+				<div class="social-footer hidden-sm hidden-md hidden-lg">
 					<a href="#" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 					<a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
 					<a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
