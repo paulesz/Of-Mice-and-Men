@@ -5,12 +5,13 @@ body {
 	height: 100%;
 	width: 100%;
 }
-
+/*--------------NAVBAR---------*/
 .navbar {
     margin: auto;
     padding: 0px;
     background-color: #000000;
     border-color: #000000;
+    color: white;
 }
 
 .navbar-brand {
@@ -28,7 +29,7 @@ body {
     -mz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
+/*---------------SOCIAL--------------*/
 .social {
     display: inline-table;
     text-align: center;
@@ -40,7 +41,7 @@ body {
     font-size: 25px;
     letter-spacing: 15px;
 }
-
+/*--------------MUSIC----------------*/
 
 .music {
     background: black;
@@ -49,7 +50,7 @@ body {
     text-align: center;
     padding: 0px;
 }
-
+/*----------------MARGINS,PADDINGS,FONTS-------*/
 a
 i {
     color: #feca3d;
@@ -145,7 +146,7 @@ ul {
     -mz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
+/*------------------PHOTOS--------------*/
 
 .members-photos {
     background: black;
@@ -184,12 +185,12 @@ ul {
     -mz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
+/*----------------------VIDEOS----------*/
 .video-section {
     padding-bottom: 30px;
 }
 
-
+/*-------------------CONTACT FORM---------------*/
 .contact {
     background: white;
     overflow: hidden;
@@ -238,7 +239,7 @@ input[type=submit]:hover {
     padding-bottom: 15px;
 }
 
-
+/*----------------SOCIAL ICONS----------------*/
 .social-footer {
     font-size: 35px;
     text-align: center;
@@ -270,7 +271,7 @@ p {
     text-align: center;
 }
 .parallax-3 {
-    height: 950px;
+    height: 1001px;
 }
 
 .php-content {

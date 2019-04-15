@@ -1,6 +1,6 @@
-# Your Project's Name
+Of Mice and Men Rock Band.
 
-One or two paragraphs providing an overview of your project.
+User Centric Milestone Project-Code Institute.
 
 Essentially, this part is your sales pitch.
  
@@ -14,7 +14,7 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
-
+This site uses parallax scrolling effect.
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
@@ -26,16 +26,14 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+In the future, I would like to add 
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
-
+   HTML
+   CSS
+   Bootstrap (3.3.7)
+   
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -58,24 +56,20 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+To run locally, you can clone this repository directly into the editor of your choice by pasting 
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for section 'About Us' was copied from the [Wikipedia article A](https://en.wikipedia.org/wiki/Of_Mice_%26_Men_(band)#cite_note-91)
 
 ### Media
-- The photos used in this site were obtained from ...
-
+- The photos used in this site were obtained from Google images.
+- The vidoes used in this site were obtained from YouTube.
+    
 ### Acknowledgements
 
 - I received inspiration for this project from X
