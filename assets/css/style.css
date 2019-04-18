@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah:100,200,300,400,500,600,700,800,900');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 	height: 100%;
 	width: 100%;
@@ -11,6 +15,7 @@ body {
     padding: 0px;
     background-color: #000000;
     border-color: #000000;
+    border-radius: 0px;
     color: white;
 }
 
