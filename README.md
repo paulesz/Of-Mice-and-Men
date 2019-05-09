@@ -2,31 +2,30 @@ Of Mice and Men Rock Band.
 
 User Centric Milestone Project-Code Institute.
 
-Essentially, this part is your sales pitch.
+This is my first front-end project for a rock band. This site is for audiences who are their fans and potential fans who want to see and hear clips and vidoes,
+new material as it becomes available.The site has 3 main section where fans can listen to new music releses, watch latest clips and find information about 
+band members.Also there is a contact form where fans can contact the band with question of availability to perform at events.
  
 ## UX
+
+My goal in the design was to make it as easy as possible to access information on the site.That why I used parallax effect to achive smooth feel to the website.
+For fans and potential fans, I wanted to provide them with material and brief overview of the band via user friendly design.
+This way, they can get to know the band members, view latest material, news and ability to contact the band with any questions.
+
+Before starting this project I have done wireframes witch are included in the project 'assets/wireframes/New Project.pdf.' They were created with Balsamiq.
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-The wireframes are included in the prtoject assets/wireframes/New Project.pdf. They were created with Balsamiq. 
-
 ## Features
-This site uses parallax scrolling effect.
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+This site uses parallax scrolling effect with "smooth scrolling" effect.
+Also there is 'go to top' button made with Javascript.
+In the navbar I have located social media links with fontawesome icons. It is a quick and easy way for user to obtain information/material about the band.
+Links are also located in the navbar. Dropdown icon appears when size of the screen changes.
+We also have audio controls, by clicking play we will hear song playing in the background.
+At the bottom of the page I have placed contact form.By filling out the from user can cantact the band.
 
 ### Features Left to Implement
-In the future, I would like to add 
+
+In the future, I would like to add new material music,vidoes etc. as they become available.
 
 ## Technologies Used
 
@@ -36,35 +35,32 @@ In the future, I would like to add
    
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The navbar changes with size of the screen. On small devices we have dropdown insted of links in the navbar. It works and looks better on smaller devices.
+On Ipad, laptops and large screens we have links located in the navbar when click will transfer user to it section on the page.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Fans are also able to view band social media profiles via clicking on the font awesome icons.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+In the about me section, user can read background of the band with ability to contact the with any questions by filling out the contact form.
+If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address.
+Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit.
+If all fields are filled user will be transferd to 'Thank You Page'.If an user is interesed in contacting the band, they will have to fill out all fields in order for the formt go through.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+When 'Go to top' button is click, it will take user to the top of the page.This allows user to spend less time scrolling the page,and finding material they looking for.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+This site was tested across multiple browsers (Safari,Chrome,Internet Explorer, FireFox ) and on multiple mobie devices (ipad,iPhone 6,7,8,Safari,Chrome,Samsung) to ensure compatibility and responsiveness.
+During the testing, I relize that on Safari in iOS, the background photos appeared blurry and zoomed in.
 ## Deployment
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting 
+To run locally, you can clone this repository directly into the editor of your choice by pasting https://paulesz.github.io/Of-Mice-and-Men/.
 
 
 ## Credits
 
 ### Content
 - The text for section 'About Us' was copied from the [Wikipedia article A](https://en.wikipedia.org/wiki/Of_Mice_%26_Men_(band)#cite_note-91)
+- 
 
 ### Media
 - The photos used in this site were obtained from Google images.
@@ -72,4 +68,7 @@ To run locally, you can clone this repository directly into the editor of your c
     
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- The parallax effect was found through www.w3schools.com.
+- Back to top button was found through www.w3schools.com.
+
+This is for educational use.
