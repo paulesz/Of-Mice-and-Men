@@ -13,10 +13,21 @@ body {
 .navbar {
     margin: auto;
     padding: 0px;
+    overflow: hidden;
     background-color: #000000;
     border-color: #000000;
     border-radius: 0px;
     color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .parallax-1 {
+  padding-top: 20px;
 }
 
 .navbar-brand {
@@ -191,8 +202,11 @@ ul {
     -webkit-transition: all .5s ease-in-out;
 }
 /*----------------------VIDEOS----------*/
-.video-section {
+.video-section,
+.contact-form-section {
     padding-bottom: 30px;
+    text-align: center;
+
 }
 
 /*-------------------CONTACT FORM---------------*/
@@ -212,6 +226,18 @@ ul {
 fname {
     font-size: 15px;
 }
+
+input[type=email], select, textarea {
+    width: 100%; 
+    padding: 5px;  
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical 
+}
+
 
 input[type=text], select, textarea {
     width: 100%; 
@@ -256,7 +282,27 @@ input[type=submit]:hover {
     letter-spacing: 20px;
     padding-bottom: 20px;
 }
-/*-----------------------------------------action_page---*/
+
+#myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: #fecc00;
+      color: black;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+/*-----------------------------------------thank you---*/
 
 
 h1 {
