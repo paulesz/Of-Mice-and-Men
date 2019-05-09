@@ -37,7 +37,7 @@ body {
 .parallax-1 {
     background: url("../images/of-mice-and-men-band-2015-wallpaper-4.jpg");
     height: 800px;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,7 +154,7 @@ ul {
 .parallax-2{
     background-image: url("../images/20160306-muse-lanxess-arena-koeln-kirsten-otto-beitragsbild111.jpg");
     height: 800px;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,7 +193,7 @@ ul {
 .parallax-3 {
     background-image: url("../images/guitar14.jpg");
     height: 800px;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -287,7 +287,7 @@ input[type=submit]:hover {
       display: none;
       position: fixed;
       bottom: 20px;
-      right: 30px;
+      right: 15px;
       z-index: 99;
       font-size: 18px;
       border: none;
