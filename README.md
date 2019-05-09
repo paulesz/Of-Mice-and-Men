@@ -48,7 +48,9 @@ If all fields are filled user will be transferd to 'Thank You Page'.If an user i
 When 'Go to top' button is click, it will take user to the top of the page.This allows user to spend less time scrolling the page,and finding material they looking for.
 
 This site was tested across multiple browsers (Safari,Chrome,Internet Explorer, FireFox ) and on multiple mobie devices (ipad,iPhone 6,7,8,Safari,Chrome,Samsung) to ensure compatibility and responsiveness.
-During the testing, I relize that on Safari in iOS, the background photos appeared blurry and zoomed in.
+During the testing, I relize that on Safari in iOS, the background photos appeared blurry and zoomed in.To fix this, the background-attachment: scroll property value was added 
+insted of background-attachment: fixed.
+
 ## Deployment
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch.
